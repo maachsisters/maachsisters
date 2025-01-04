@@ -25,6 +25,12 @@
         width: 50rem; /* Set the width of the card */
         height: auto; /* Adjust the height to auto */
       }
+      /* Reduce image size */
+      .card-img-top {
+        max-width: 100%;  /* Ensure image fits within card */
+        height: 300px;    /* Set a fixed height for the image */
+        object-fit: cover; /* Ensure the image maintains aspect ratio */
+      }
     </style>
   </head>
   <body>
@@ -65,7 +71,7 @@
     <!-- Centered Container with a larger card -->
     <div class="center-container">
       <div class="card card-custom">
-        <!-- Correct Image URL -->
+        <!-- Reduced Image Size -->
         <img src="https://raw.githubusercontent.com/maachsisters/maachsisters/main/images/madhubani.jpg" alt="Madhubani Art" class="card-img-top">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
@@ -80,5 +86,4 @@
 
   </body>
 </html>
-
 
