@@ -31,6 +31,11 @@
         height: 300px;    /* Set a fixed height for the image */
         object-fit: cover; /* Ensure the image maintains aspect ratio */
       }
+      /* Right align the second card */
+      .right-align-card {
+        margin-top: 30px;
+        text-align: right;
+      }
     </style>
   </head>
   <body>
@@ -55,7 +60,6 @@
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="#">Our Work</a></li>
                 <li><a class="dropdown-item" href="#">Products</a></li>
-              
               </ul>
             </li>
           </ul>
@@ -68,15 +72,29 @@
     </nav>
 
     <!-- Centered Container with a larger card -->
-    
+    <div class="center-container">
       <div class="card card-custom">
         <!-- Reduced Image Size -->
         <img src="https://raw.githubusercontent.com/maachsisters/maachsisters/main/images/bird.jpeg" alt="Madhubani Art" class="card-img-top">
         <div class="card-body">
           <h5 class="card-title">Bridging Art and Livelihoods</h5>
           <p class="card-text">
-          Madhubani art is more than just a tradition—it’s a story of resilience and creativity. We train women to create exquisite hand-painted designs on bridal wear, lifestyle products, and home décor. 
+            Madhubani art is more than just a tradition—it’s a story of resilience and creativity. We train women to create exquisite hand-painted designs on bridal wear, lifestyle products, and home décor. 
             By connecting these creations with urban and global markets, we ensure that the artform thrives while providing consistent incomes to artisans.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right-aligned card below the first one -->
+    <div class="right-align-card">
+      <div class="card card-custom">
+        <!-- Reduced Image Size -->
+        <img src="https://raw.githubusercontent.com/maachsisters/maachsisters/main/images/fishcropped.jpeg" alt="Madhubani Art" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Empowering Women Through Art</h5>
+          <p class="card-text">
+            Our mission is to empower women through art. We offer training programs that equip women with skills to create stunning works of Madhubani art, enabling them to support their families and communities.
           </p>
         </div>
       </div>
@@ -84,3 +102,4 @@
 
   </body>
 </html>
+
